@@ -69,6 +69,27 @@ public class Jiji {
                 case 10:
                     ejercicio10();
                     break;
+
+                case 11:
+                    ejercicio11();
+                    break;
+
+                case 12:
+                    ejercicio12();
+                    break;
+
+                case 13:
+                    ejercicio13();
+                    break;
+
+                case 14:
+                    ejercicio14();
+                    break;
+
+                case 15:
+                    ejercicio15();
+                    break;                    
+                    
             }
             
         } while (opcion != 16); 
