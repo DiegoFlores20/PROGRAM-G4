@@ -8,6 +8,7 @@ public class Jiji {
         int opcion;
         
         do {
+            System.out.println("\n===== MENU PRINCIPAL =====");
         } while (opcion != 16); 
     }
     
