@@ -8,7 +8,7 @@ public class Jiji {
         int opcion;
         
         do {
-            System.out.println("\n===== MENU PRINCIPAL =====");
+            System.out.println("MENU PRINCIPAL");
             System.out.println("1. Contraseña ilimitada");
             System.out.println("2. Positivos, suma y promedio");
             System.out.println("3. Validar nota");
@@ -25,6 +25,10 @@ public class Jiji {
             System.out.println("14. Suma pares 1-200");
             System.out.println("15. Número primo");
             System.out.println("16. Salir");
+            
+            System.out.print("Seleccione una opción: ");
+            opcion = leer.nextInt();
+            
         } while (opcion != 16); 
     }
     
