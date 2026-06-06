@@ -19,6 +19,12 @@ public class Jiji {
             System.out.println("8. Tabla de multiplicar");
             System.out.println("9. Factorial");
             System.out.println("10. Positivos, negativos y ceros");
+            System.out.println("11. Promedio de 20 estudiantes");
+            System.out.println("12. Fibonacci");
+            System.out.println("13. Mayor y menor");
+            System.out.println("14. Suma pares 1-200");
+            System.out.println("15. Número primo");
+            System.out.println("16. Salir");
         } while (opcion != 16); 
     }
     
