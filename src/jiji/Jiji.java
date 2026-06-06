@@ -107,4 +107,7 @@ public static void ejercicio13() {
     int menor = Integer.MAX_VALUE;
     int numero;
     for (int i = 1; i <= 10; i++) {
+        System.out.print("Ingrese número: ");
+        numero = leer.nextInt();
+    }
 }
