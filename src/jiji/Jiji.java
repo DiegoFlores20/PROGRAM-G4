@@ -89,7 +89,13 @@ public class Jiji {
                 case 15:
                     ejercicio15();
                     break;                    
-                    
+
+                case 16:
+                    System.out.println("Programa finalizado");
+                    break;
+
+                default:
+                    System.out.println("Opción inválida");
             }
             
         } while (opcion != 16); 
