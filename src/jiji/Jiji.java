@@ -109,5 +109,11 @@ public static void ejercicio13() {
     for (int i = 1; i <= 10; i++) {
         System.out.print("Ingrese número: ");
         numero = leer.nextInt();
+        
+        if (numero > mayor)
+        mayor = numero;
+        
+        if (numero < menor)
+        menor = numero;
     }
 }
