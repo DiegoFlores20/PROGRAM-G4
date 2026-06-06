@@ -29,6 +29,10 @@ public class Jiji {
             System.out.print("Seleccione una opción: ");
             opcion = leer.nextInt();
             
+            switch (opcion) {
+
+            }
+            
         } while (opcion != 16); 
     }
     
