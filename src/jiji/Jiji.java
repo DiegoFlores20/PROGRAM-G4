@@ -106,4 +106,5 @@ public static void ejercicio13() {
     int mayor = Integer.MIN_VALUE;
     int menor = Integer.MAX_VALUE;
     int numero;
+    for (int i = 1; i <= 10; i++) {
 }
