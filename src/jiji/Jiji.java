@@ -103,5 +103,7 @@ public class Jiji {
     
 }
 public static void ejercicio13() {
-
+    int mayor = Integer.MIN_VALUE;
+    int menor = Integer.MAX_VALUE;
+    int numero;
 }
