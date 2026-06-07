@@ -106,6 +106,8 @@ public class Jiji {
 public static void ejercicio9() {
      int num;
         long factorial = 1;
+        System.out.print("Ingrese un número: ");
+        num = leer.nextInt();
     
     
 }
