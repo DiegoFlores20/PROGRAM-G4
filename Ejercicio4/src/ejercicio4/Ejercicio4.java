@@ -49,7 +49,7 @@ public class Ejercicio4 {
             System.out.println("\n¡Al fin te acordaste Bienvenido a tu cuenta bancaria!");
             System.out.println("Acceso concedido exitosamente, para la proxima traela en un papelito asi nos evitamos tanto lio.");
         } else {
-            System.out.println("\n[ERROR] Ha superado el límite de intentos.");
+            System.out.println("\n[ERROR] Ha superado el límite de intentos, busca bien.");
             System.out.println("Acceso bloqueado por motivos de seguridad.");
         }
         
