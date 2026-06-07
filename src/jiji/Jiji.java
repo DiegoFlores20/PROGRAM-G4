@@ -119,3 +119,8 @@ public static void ejercicio13() {
     System.out.println("Mayor: " + mayor);
     System.out.println("Menor: " + menor);
 }
+
+public static void ejercicio14() {
+
+    }
+
