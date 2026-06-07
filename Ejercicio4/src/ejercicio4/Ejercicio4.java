@@ -46,7 +46,7 @@ public class Ejercicio4 {
         
         // Evaluación final fuera del bucle
         if (accesoConcedido) {
-            System.out.println("\n¡Bienvenido a su cuenta bancaria!");
+            System.out.println("\n¡Al fin te acordaste Bienvenido a tu cuenta bancaria!");
             System.out.println("Acceso concedido exitosamente.");
         } else {
             System.out.println("\n[ERROR] Ha superado el límite de intentos.");
