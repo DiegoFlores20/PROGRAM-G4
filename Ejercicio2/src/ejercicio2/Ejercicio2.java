@@ -16,7 +16,7 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner teclado = new Scanner(System.in);
-
+//Sistema para ingtresar numeros enteros positivos se termina cuando se ingresa un negativo
         int numero;
         int cantidad = 0;
         int suma = 0;
