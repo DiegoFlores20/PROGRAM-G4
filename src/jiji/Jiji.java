@@ -121,6 +121,9 @@ public static void ejercicio13() {
 }
 
 public static void ejercicio14() {
-
+    int suma = 0;
+    for (int i = 1; i <= 200; i++) {
+        if (i % 2 == 0)
+            suma += i;
     }
-
+}
