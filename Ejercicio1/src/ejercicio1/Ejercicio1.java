@@ -38,7 +38,7 @@ public class Ejercicio1 {
 
             // Mensaje 
             System.out.println("\n¡Acceso concedido, al fin te acordaste!");
-            System.out.println("Número total de intentos necesitados: " + intentos);
+            System.out.println("Número total de intentos necesitados, porque el usuario ni su contraseña sabe: " + intentos);
             
            //salida
         }
