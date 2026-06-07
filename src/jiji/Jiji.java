@@ -117,7 +117,9 @@ public static void ejercicio9() {
 public static void ejercicio13() {
     int numero;
     int positivos = 0, negativos = 0, ceros = 0;
-    
+    for (int i = 1; <= 15; i++){
+        System.out.println("Ingrese un numero"+i+":");
+    }
 }
 
 public static void ejercicio13() {
