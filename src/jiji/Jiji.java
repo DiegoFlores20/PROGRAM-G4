@@ -103,17 +103,22 @@ public class Jiji {
     
 }
 public static void ejercicio5() {
-        int numero, pares = 0, impares = 0;
+        int numero, pares = 0, impares = 0, total = 0;
         System.out.println("Numeros pares e impares ");
         do {
             System.out.print("Ingrese un numero (0 para terminar): ");
             numero = leer.nextInt(); 
             if (numero != 0) {
+                total++;
                 if (numero % 2 == 0) pares++;
                 else impares++;
             }
         } while (numero != 0);
         System.out.println("pares: " + pares + " ; impares: " + impares);
+        System.out.println("total ingresados: " + total);
+        
+    
+    }
 
 public static void ejercicio9() {
     int num;
