@@ -36,8 +36,8 @@ public class Ejercicio1 {
                 
             } while (!contrasenaIngresada.equals(contrasenaCorrecta));
 
-            // Mensaje de éxito al ingresar correctamente
-            System.out.println("\n¡Acceso concedido!");
+            // Mensaje 
+            System.out.println("\n¡Acceso concedido, al fin te acordaste!");
             System.out.println("Número total de intentos necesitados: " + intentos);
             
            //salida
