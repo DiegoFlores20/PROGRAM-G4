@@ -130,5 +130,9 @@ public static void ejercicio14() {
 }
 
 public static void ejercicio15() {
+        int numero;
+        int divisores = 0;
 
+        System.out.print("Ingrese número: ");
+        numero = leer.nextInt();
 }
