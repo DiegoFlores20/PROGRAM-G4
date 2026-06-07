@@ -169,6 +169,7 @@ public static void ejercicio7() {
             System.out.println("Promedio general:" + ((double) suma / cantidad));
         System.out.println("numero mayor ingresado: " + (cantidad == 0 ? 0 : mayor));
         System.out.println("Poceso terminado por numero negativo: ");
+        System.out.println("Suma de los numeros: " + suma);
         }
 
 public static void ejercicio8() {
