@@ -128,3 +128,7 @@ public static void ejercicio14() {
     }
     System.out.println("Suma pares: " + suma);
 }
+
+public static void ejercicio15() {
+
+}
