@@ -106,7 +106,7 @@ public static void ejercicio5() {
         int numero, pares = 0, impares = 0, total = 0, ultimoPar = 0;
         System.out.println("Numeros pares e impares ");
         do {
-            System.out.print("Ingrese un numero (0 para terminar): ");
+            System.out.println("Ingrese un numero (0 para terminar): ");
             numero = leer.nextInt(); 
             if (numero != 0) {
                 total++;
@@ -130,7 +130,7 @@ public static void ejercicio6() {
     int cantidad = 0;
     System.out.println("Ventas diarias");
     do {
-        System.out.print("Ingrese una venta (0 para terminar): ");
+        System.out.println("Ingrese una venta (0 para terminar): ");
         venta = leer.nextDouble();
         if (venta != 0) {
             total += venta;
@@ -153,7 +153,7 @@ public static void ejercicio7() {
         int numero, cantidad = 0, suma = 0, mayor = Integer.MAX_VALUE;
         System.out.println("Hasta numero negativo");
         do {
-            System.out.print("Ingrese un numero (negativo para terminar): ");
+            System.out.println("Ingrese un numero (negativo para terminar): ");
             numero = leer.nextInt();
             if (numero >= 0){
                 cantidad++;
@@ -168,6 +168,16 @@ public static void ejercicio7() {
             System.out.println("Promedio general:" + ((double) suma / cantidad));
         System.out.println("numero mayor ingresado: " + (cantidad == 0 ? 0 : mayor));
         }
+
+public static void ejercicio8() {
+        int n;
+        System.out.println("Tabla de multiplicar");
+        System.out.println("Ingrese un numero positivo: ");
+        n = leer.nextInt();
+        for (int i = 1; i <= 20; i++) {
+            System.out.println(n + " x " + i + " = " + (n * i));
+        }
+    }
 
 public static void ejercicio9() {
     int num;
