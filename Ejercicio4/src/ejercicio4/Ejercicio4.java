@@ -37,7 +37,7 @@ public class Ejercicio4 {
                 accesoConcedido = true;
             } else {
                 int intentosRestantes = MAX_INTENTOS - intentos;
-                System.out.println("Clave incorrecta.");
+                System.out.println("La clave ingresada es incorrecta, tomese un descanso reflexione y vuelva.");
                 if (intentosRestantes > 0) {
                     System.out.println("Le quedan " + intentosRestantes + " intentos.");
                 }
