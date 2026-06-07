@@ -170,15 +170,18 @@ public static void ejercicio7() {
         }
 
 public static void ejercicio8() {
-        int n, limite;
+        int n, limite, sumaTotal = 0;
         System.out.println("Tabla de multiplicar");
         System.out.println("Ingrese un numero positivo: ");
         n = leer.nextInt();
         System.out.println("Ingrese hasta que numero desea la tabla: ");
         limite = leer.nextInt();
         for (int i = 1; i <= limite; i++) {
-            System.out.println(n + " x " + i + " = " + (n * i));
+            int resultado = n * i;
+            sumaTotal += resultado;
+            System.out.println(n + " x " + i + " = " + resultado);
         }
+        System.out.println("Suma de todos los resultados: " + sumaTotal);
     }
 
 public static void ejercicio9() {
