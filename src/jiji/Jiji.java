@@ -134,7 +134,8 @@ public static void ejercicio10() {
 }
 
 public static void ejercicio11() {
-    
+    double nota, suma=0;
+    double promedio;
 }
 
 public static void ejercicio13() {
