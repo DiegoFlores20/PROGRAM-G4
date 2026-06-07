@@ -108,6 +108,9 @@ public static void ejercicio9() {
         long factorial = 1;
         System.out.print("Ingrese un número: ");
         num = leer.nextInt();
+         for (int i = 1; i <= num; i++) {
+            factorial *= i;
+        }
     
     
 }
