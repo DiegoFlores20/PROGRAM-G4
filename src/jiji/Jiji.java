@@ -107,6 +107,9 @@ public static int sumarDosNumeros(int a, int b) {
 public static int restarDosNumeros(int a, int b) {
     return a - b;
 }
+public static int multiplicarDosNumeros(int a, int b) {
+    return a * b;
+}
     
 }
 public static void ejercicio5() {
