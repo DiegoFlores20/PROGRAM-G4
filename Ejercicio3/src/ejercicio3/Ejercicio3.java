@@ -32,6 +32,7 @@ public class Ejercicio3 {
         System.out.println("Excelente, la nota válida registrada es: " + nota);
 
         teclado.close();
+        //Muchas gracias por usar nuestro sistema, cuando necesites otro servicio no dudes en buscarnos.
     }
 }
 
