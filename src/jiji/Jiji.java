@@ -139,6 +139,11 @@ public static void ejercicio15() {
         for (int i = 1; i <= numero; i++) {
 
             if (numero % i == 0)
-                divisores++;
+                divisores++;         
         }
+        if (divisores == 2)
+            System.out.println("Es primo");
+        else
+            System.out.println("No es primo");        
 }
+
