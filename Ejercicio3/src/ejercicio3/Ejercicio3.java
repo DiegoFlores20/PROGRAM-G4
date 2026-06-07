@@ -20,7 +20,7 @@ public class Ejercicio3 {
 
         double nota;
 
-        System.out.print("Ingrese una nota entre 0 y 10: ");
+        System.out.print("Ingrese una nota entre los parametros de 0 y 10: ");
         nota = teclado.nextDouble();
 
         while (nota < 0 || nota > 10) {
