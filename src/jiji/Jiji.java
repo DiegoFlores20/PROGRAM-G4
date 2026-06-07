@@ -102,7 +102,6 @@ public class Jiji {
     }
     
 }
-
 public static void ejercicio5() {
         int numero, pares = 0, impares = 0, total = 0, ultimoPar = 0;
         System.out.println("Numeros pares e impares ");
@@ -127,7 +126,7 @@ public static void ejercicio5() {
         
     }
 public static void ejercicio6() {
-    double venta, total = 0;
+    double venta, total = 0, ventaMaxima = 0;
     int cantidad = 0;
     System.out.println("Ventas diarias");
     do {
@@ -136,16 +135,16 @@ public static void ejercicio6() {
         if (venta != 0) {
             total += venta;
             cantidad++;
-        }    } while (venta != 0);
+            if (venta > ventaMaxima)
+                ventaMaxima = venta;
+        }
+
+    } while (venta != 0);
     System.out.println("Total: " + total + " ; Ventas: " + cantidad);
-    if (cantidad > 0) { 
-            System.out.println("Promedio de ventas: " + (total / cantidad));
-    }
-
-
-}
-
-
+    if (cantidad > 0)
+        System.out.println("Promedio de ventas: " + (total / cantidad));
+    System.out.println("Venta mas alta:" + ventaMaxima);
+}   
 
 
 public static void ejercicio9() {
