@@ -149,6 +149,10 @@ public static void ejercicio12() {
     int n;
     int a = 0, b= 1, siguiente;
     
+    System.out.println("Ingrese la cantidad de terminos: ");
+    n = leer.nextInt();
+    
+    
 }
 
 public static void ejercicio13() {
