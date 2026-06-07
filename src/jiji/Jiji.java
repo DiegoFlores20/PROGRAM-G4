@@ -104,16 +104,15 @@ public class Jiji {
 }
 
 public static void ejercicio9() {
-     int num;
+    int num;
         long factorial = 1;
         System.out.print("Ingrese un número: ");
         num = leer.nextInt();
          for (int i = 1; i <= num; i++) {
             factorial *= i;
         }
-    
-    
-}
+        System.out.println("El factorial es: " + factorial);
+}       
 
 public static void ejercicio13() {
     int mayor = Integer.MIN_VALUE;
