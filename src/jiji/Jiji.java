@@ -152,7 +152,10 @@ public static void ejercicio12() {
     System.out.println("Ingrese la cantidad de terminos: ");
     n = leer.nextInt();
     
-    
+    System.out.println("Secuencia Fibonacci: ");
+    for (int i = 1; i <= n; i++){
+        System.out.println(a+"");
+    }
 }
 
 public static void ejercicio13() {
