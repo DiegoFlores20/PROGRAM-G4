@@ -135,4 +135,10 @@ public static void ejercicio15() {
 
         System.out.print("Ingrese número: ");
         numero = leer.nextInt();
+        
+        for (int i = 1; i <= numero; i++) {
+
+            if (numero % i == 0)
+                divisores++;
+        }
 }
