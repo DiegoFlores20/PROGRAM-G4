@@ -22,8 +22,8 @@ public class Ejercicio2 {
         int suma = 0;
         double promedio;
 
-        System.out.println("Ingrese números enteros positivos.");
-        System.out.println("Para finalizar ingrese un número negativo.");
+        System.out.println("Ingresar solo numeros enteros positivos.");
+        System.out.println("cuando vaya a finalizar ingrese un negativo.");
 
         do {
             System.out.print("Ingrese un número: ");
