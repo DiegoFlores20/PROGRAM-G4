@@ -101,6 +101,10 @@ public class Jiji {
         } while (opcion != 16); 
     }
     
+public static int sumarDosNumeros(int a, int b) {
+    return a + b;
+}    
+    
 }
 public static void ejercicio5() {
         int numero, pares = 0, impares = 0, total = 0, ultimoPar = 0;
@@ -169,7 +173,7 @@ public static void ejercicio7() {
             System.out.println("Promedio general:" + ((double) suma / cantidad));
         System.out.println("numero mayor ingresado: " + (cantidad == 0 ? 0 : mayor));
         System.out.println("Poceso terminado por numero negativo: ");
-        System.out.println("Suma de los numeros: " + suma);
+        System.out.println("suma de los numeros");
         }
 
 public static void ejercicio8() {
