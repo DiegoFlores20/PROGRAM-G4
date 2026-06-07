@@ -146,6 +146,8 @@ public static void ejercicio11() {
 }
 
 public static void ejercicio12() {
+    int n;
+    int a = 0, b= 1, siguiente;
     
 }
 
