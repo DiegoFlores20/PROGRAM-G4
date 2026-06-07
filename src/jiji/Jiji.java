@@ -155,6 +155,10 @@ public static void ejercicio12() {
     System.out.println("Secuencia Fibonacci: ");
     for (int i = 1; i <= n; i++){
         System.out.println(a+"");
+        
+        siguiente=a+b;
+        a=b;
+        b=siguiente;
     }
 }
 
