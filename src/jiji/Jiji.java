@@ -103,7 +103,10 @@ public class Jiji {
     
 public static int sumarDosNumeros(int a, int b) {
     return a + b;
-}    
+}
+public static int restarDosNumeros(int a, int b) {
+    return a - b;
+}
     
 }
 public static void ejercicio5() {
