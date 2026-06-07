@@ -114,12 +114,15 @@ public static void ejercicio9() {
         System.out.println("El factorial es: " + factorial);
 }       
 
-public static void ejercicio13() {
+public static void ejercicio10() {
     int numero;
     int positivos = 0, negativos = 0, ceros = 0;
     for (int i = 1; <= 15; i++){
         System.out.println("Ingrese un numero"+i+":");
         numero = leer.nextInt();
+        if (numero > 0){
+            positivos++;
+        }
     }
 }
 
