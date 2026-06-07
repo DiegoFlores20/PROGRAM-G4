@@ -126,7 +126,7 @@ public static void ejercicio5() {
         
     }
 public static void ejercicio6() {
-    double venta, total = 0, ventaMaxima = 0;
+    double venta, total = 0, ventaMaxima = 0, ventaMinima = Double.MAX_VALUE;
     int cantidad = 0;
     System.out.println("Ventas diarias");
     do {
@@ -137,6 +137,8 @@ public static void ejercicio6() {
             cantidad++;
             if (venta > ventaMaxima)
                 ventaMaxima = venta;
+            if (venta < ventaMinima)
+                ventaMinima = venta;
         }
 
     } while (venta != 0);
@@ -144,6 +146,8 @@ public static void ejercicio6() {
     if (cantidad > 0)
         System.out.println("Promedio de ventas: " + (total / cantidad));
     System.out.println("Venta mas alta:" + ventaMaxima);
+    System.out.println("Venta mas baja: " + (cantidad == 0 ? 0 : ventaMinima));
+    
 }   
 
 
