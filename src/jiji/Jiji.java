@@ -124,6 +124,7 @@ public static void ejercicio5() {
         }
         System.out.println("Ultimo par ingresado: " + ultimoPar);
         
+        
     }
 public static void ejercicio6() {
     double venta, total = 0, ventaMaxima = 0, ventaMinima = Double.MAX_VALUE;
@@ -167,6 +168,7 @@ public static void ejercicio7() {
         if (cantidad > 0)
             System.out.println("Promedio general:" + ((double) suma / cantidad));
         System.out.println("numero mayor ingresado: " + (cantidad == 0 ? 0 : mayor));
+        System.out.println("Poceso terminado por numero negativo: ");
         }
 
 public static void ejercicio8() {
