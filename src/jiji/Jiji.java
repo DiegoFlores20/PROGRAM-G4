@@ -138,7 +138,8 @@ public static void ejercicio11() {
     double promedio;
     for (int i =1;i <=20; i++){
         System.out.println("Ingrese la calificacion del estudiante"+i+":");
-        
+        nota = leer.nextDouble();
+        suma += nota;      
     }
 }
 
