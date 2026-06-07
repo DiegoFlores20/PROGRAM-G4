@@ -121,7 +121,9 @@ public static void ejercicio10() {
         System.out.println("Ingrese un numero"+i+":");
         numero = leer.nextInt();
         if (numero > 0){
-            positivos++;
+            positivos++;  
+        }else if (num < 0){
+            negativos++;
         }
     }
 }
