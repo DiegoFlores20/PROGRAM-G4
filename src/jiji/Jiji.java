@@ -161,7 +161,10 @@ public static void ejercicio7() {
             }
         } while (numero >= 0);
         System.out.println("cantidad de numeros : " + cantidad + " ; suma total: " + suma);
-        
+        if (cantidad > 0){
+            System.out.println("Promedio general:" + ((double) suma / cantidad));
+        }
+}
 
 public static void ejercicio9() {
     int num;
