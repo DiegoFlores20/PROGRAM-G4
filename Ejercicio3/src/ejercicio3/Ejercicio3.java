@@ -29,7 +29,7 @@ public class Ejercicio3 {
             nota = teclado.nextDouble();
         }
 
-        System.out.println("La nota válida registrada es: " + nota);
+        System.out.println("Excelente, la nota válida registrada es: " + nota);
 
         teclado.close();
     }
