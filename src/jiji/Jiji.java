@@ -118,7 +118,6 @@ public static int calcularCuadrado(int numero) {
     return numero * numero;
 }
     
-}
 public static void ejercicio5() {
         int numero, pares = 0, impares = 0, total = 0, ultimoPar = 0;
         System.out.println("Numeros pares e impares ");
@@ -168,7 +167,7 @@ public static void ejercicio6() {
     
 }
 public static void ejercicio7() {
-        int numero, cantidad = 0, suma = 0, mayor = Integer.MAX_VALUE;
+        int numero, cantidad = 0, suma = 0, mayor = Integer.MIN_VALUE;
         System.out.println("Hasta numero negativo");
         do {
             System.out.println("Ingrese un numero (negativo para terminar): ");
@@ -228,7 +227,7 @@ public static void ejercicio10() {
         numero = leer.nextInt();
         if (numero > 0){
             positivos++;  
-        }else if (num < 0){
+        }else if (numero < 0){
             negativos++;
         }else{
             ceros++;
@@ -312,4 +311,4 @@ public static void ejercicio15() {
         else
             System.out.println("No es primo");        
 }
-
+}
