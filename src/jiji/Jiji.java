@@ -133,6 +133,10 @@ public static void ejercicio10() {
     System.out.println("Ceros: " + ceros);
 }
 
+public static void ejercicio11() {
+    
+}
+
 public static void ejercicio13() {
     int mayor = Integer.MIN_VALUE;
     int menor = Integer.MAX_VALUE;
