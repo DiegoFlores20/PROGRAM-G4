@@ -170,11 +170,13 @@ public static void ejercicio7() {
         }
 
 public static void ejercicio8() {
-        int n;
+        int n, limite;
         System.out.println("Tabla de multiplicar");
         System.out.println("Ingrese un numero positivo: ");
         n = leer.nextInt();
-        for (int i = 1; i <= 20; i++) {
+        System.out.println("Ingrese hasta que numero desea la tabla: ");
+        limite = leer.nextInt();
+        for (int i = 1; i <= limite; i++) {
             System.out.println(n + " x " + i + " = " + (n * i));
         }
     }
