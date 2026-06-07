@@ -102,6 +102,7 @@ public class Jiji {
     }
     
 }
+
 public static void ejercicio5() {
         int numero, pares = 0, impares = 0, total = 0, ultimoPar = 0;
         System.out.println("Numeros pares e impares ");
@@ -143,6 +144,7 @@ public static void ejercicio6() {
 
 
 }
+
 
 
 
