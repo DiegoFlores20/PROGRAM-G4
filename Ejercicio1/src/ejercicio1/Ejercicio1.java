@@ -31,7 +31,7 @@ public class Ejercicio1 {
                 intentos++;
 
                 if (!contrasenaIngresada.equals(contrasenaCorrecta)) {
-                    System.out.println("Contraseña incorrecta. Intente de nuevo.");
+                    System.out.println("La contraseña no es la correcta. Vuelva cuando se haya acordado.");
                 }
                 
             } while (!contrasenaIngresada.equals(contrasenaCorrecta));
