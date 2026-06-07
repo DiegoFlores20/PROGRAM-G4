@@ -148,7 +148,16 @@ public static void ejercicio6() {
     System.out.println("Venta mas alta:" + ventaMaxima);
     System.out.println("Venta mas baja: " + (cantidad == 0 ? 0 : ventaMinima));
     
-}   
+}
+public static void ejercicio7() {
+        int numero;
+        System.out.println("Hasta numero negativo");
+        do {
+            System.out.print("Ingrese un numero (negativo para terminar): ");
+            numero = leer.nextInt();
+        } while (numero >= 0);
+        System.out.println("Proceso terminado.");
+    }
 
 
 public static void ejercicio9() {
