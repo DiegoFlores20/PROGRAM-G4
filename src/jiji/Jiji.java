@@ -116,8 +116,11 @@ public static void ejercicio5() {
         } while (numero != 0);
         System.out.println("pares: " + pares + " ; impares: " + impares);
         System.out.println("total ingresados: " + total);
+        if (total > 0) { 
+            System.out.println("% pares: " + (pares * 100 / total) + "%");
+            System.out.println("% impares: " + (impares * 100 / total) + "%");
+        }
         
-    
     }
 
 public static void ejercicio9() {
