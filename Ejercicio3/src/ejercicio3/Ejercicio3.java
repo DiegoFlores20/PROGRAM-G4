@@ -25,7 +25,7 @@ public class Ejercicio3 {
 
         while (nota < 0 || nota > 10) {
             System.out.println("Error respete las normas anticipadas. La nota debe estar entre 0 y 10.");
-            System.out.print("Ingrese nuevamente la nota: ");
+            System.out.print("Ingrese nuevamente una nota que sea correcta por favor, caso contrario no le permitiremos mas acceso: ");
             nota = teclado.nextDouble();
         }
 
