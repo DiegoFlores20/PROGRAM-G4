@@ -182,9 +182,9 @@ public static void ejercicio8() {
             System.out.println(n + " x " + i + " = " + resultado);
         }
         System.out.println("Suma de todos los resultados: " + sumaTotal);
-        System.out.println("resultados pares de la tabla");
+        System.out.println("resultados impares de la tabla");
         for (int i = 1; i <= limite; i++) {
-            if ((n*i)%2 ==0)
+            if ((n*i)%2 !=0)
                 System.out.println(n + " x " + i + " = " + (n*i));
         }
 }
