@@ -21,12 +21,12 @@ public class Ejercicio2 {
         int cantidad = 0;
         int suma = 0;
         double promedio;
-
+//proceso
         System.out.println("Ingresar solo numeros enteros positivos.");
         System.out.println("cuando vaya a finalizar ingrese un negativo.");
 
         do {
-            System.out.print("Ingrese un número: ");
+            System.out.print("Ingrese un número entero positivo: ");
             numero = teclado.nextInt();
 
             if (numero >= 0) {
