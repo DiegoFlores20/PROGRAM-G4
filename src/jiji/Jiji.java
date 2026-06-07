@@ -141,6 +141,8 @@ public static void ejercicio11() {
         nota = leer.nextDouble();
         suma += nota;      
     }
+    promedio=suma/20;
+    
 }
 
 public static void ejercicio13() {
