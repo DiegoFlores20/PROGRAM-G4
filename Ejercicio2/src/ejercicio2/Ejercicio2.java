@@ -48,6 +48,7 @@ public class Ejercicio2 {
         System.out.println("Promedio: " + promedio);
 
         teclado.close();
+        //salda. Este programa se termina aqui muchas gracias:)
     }
 }
     
