@@ -125,6 +125,22 @@ public static void ejercicio5() {
         System.out.println("Ultimo par ingresado: " + ultimoPar);
         
     }
+public static void ejercicio6() {
+    double venta, total = 0;
+    int cantidad = 0;
+    System.out.println("Ventas diarias");
+    do {
+        System.out.print("Ingrese una venta (0 para terminar): ");
+        venta = leer.nextDouble();
+        if (venta != 0) {
+            total += venta;
+            cantidad++;
+        }
+    }
+    while (venta != 0);
+    System.out.println("Total: " + total + " ; Ventas: " + cantidad);
+}
+
 
 public static void ejercicio9() {
     int num;
