@@ -114,6 +114,9 @@ public static double dividirDosNumeros(double a, double b) {
     if (b == 0) return 0;
     return a / b;
 }
+public static int calcularCuadrado(int numero) {
+    return numero * numero;
+}
     
 }
 public static void ejercicio5() {
