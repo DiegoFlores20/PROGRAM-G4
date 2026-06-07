@@ -20,13 +20,13 @@ public class Ejercicio1 {
         String contrasenaIngresada;
         int intentos = 0;
 
-        // El try-with-resources gestiona la apertura y cierre automático del Scanner
+        //proceso
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("--- Sistema para ingreso ---");
 
             // Estructura ideal: primero ejecuta la acción, luego evalúa si repite
             do {
-                System.out.print("Ingrese su contraseña: ");
+                System.out.print("Ingrese su contraseña correctamente: ");
                 contrasenaIngresada = scanner.nextLine();
                 intentos++;
 
