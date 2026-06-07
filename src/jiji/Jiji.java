@@ -104,6 +104,8 @@ public class Jiji {
 }
 
 public static void ejercicio9() {
+     int num;
+        long factorial = 1;
     
     
 }
