@@ -142,7 +142,7 @@ public static void ejercicio11() {
         suma += nota;      
     }
     promedio=suma/20;
-    
+    System.out.println("El promedio general del curso es: "+promedio);
 }
 
 public static void ejercicio13() {
