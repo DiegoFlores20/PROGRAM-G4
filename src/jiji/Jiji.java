@@ -117,7 +117,7 @@ public static void ejercicio9() {
 public static void ejercicio10() {
     int numero;
     int positivos = 0, negativos = 0, ceros = 0;
-    for (int i = 1; <= 15; i++){
+    for (int i = 1; i <= 15; i++){
         System.out.println("Ingrese un numero"+i+":");
         numero = leer.nextInt();
         if (numero > 0){
@@ -136,6 +136,9 @@ public static void ejercicio10() {
 public static void ejercicio11() {
     double nota, suma=0;
     double promedio;
+    for (int i =1;i <=20; i++){
+        
+    }
 }
 
 public static void ejercicio13() {
