@@ -135,13 +135,16 @@ public static void ejercicio6() {
         if (venta != 0) {
             total += venta;
             cantidad++;
-        }
-    } while (venta != 0);
+        }    } while (venta != 0);
     System.out.println("Total: " + total + " ; Ventas: " + cantidad);
     if (cantidad > 0) { 
             System.out.println("Promedio de ventas: " + (total / cantidad));
     }
+
+
 }
+
+
 
 public static void ejercicio9() {
     int num;
