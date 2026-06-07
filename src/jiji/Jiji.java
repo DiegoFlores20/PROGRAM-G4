@@ -124,6 +124,8 @@ public static void ejercicio10() {
             positivos++;  
         }else if (num < 0){
             negativos++;
+        }else{
+            ceros++;
         }
     }
 }
