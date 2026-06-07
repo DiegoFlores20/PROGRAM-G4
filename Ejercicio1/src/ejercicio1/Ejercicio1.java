@@ -40,7 +40,7 @@ public class Ejercicio1 {
             System.out.println("\n¡Acceso concedido!");
             System.out.println("Número total de intentos necesitados: " + intentos);
             
-            // NOTA: Ya no hay scanner.close() aquí. El bloque try() lo hace solo al salir.
+           //salida
         }
     }
 }
