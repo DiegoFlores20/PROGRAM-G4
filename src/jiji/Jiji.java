@@ -115,6 +115,8 @@ public static void ejercicio9() {
 }       
 
 public static void ejercicio13() {
+    int numero;
+    int positivos = 0, negativos = 0, ceros = 0;
     
 }
 
