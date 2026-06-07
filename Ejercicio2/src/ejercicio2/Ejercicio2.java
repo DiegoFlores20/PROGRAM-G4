@@ -42,9 +42,9 @@ public class Ejercicio2 {
             promedio = 0;
         }
 
-        System.out.println("\nRESULTADOS");
-        System.out.println("Cantidad de números ingresados: " + cantidad);
-        System.out.println("Suma total: " + suma);
+        System.out.println("\nRESULTADOS OBTENIDOS");
+        System.out.println("Cantidad/total de números ingresados: " + cantidad);
+        System.out.println("Sumatoria total: " + suma);
         System.out.println("Promedio: " + promedio);
 
         teclado.close();
