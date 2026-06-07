@@ -126,4 +126,5 @@ public static void ejercicio14() {
         if (i % 2 == 0)
             suma += i;
     }
+    System.out.println("Suma pares: " + suma);
 }
