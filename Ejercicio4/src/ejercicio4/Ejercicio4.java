@@ -24,11 +24,11 @@ public class Ejercicio4 {
         
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("=== BIENVENIDO AL BANCO ===");
+        System.out.println("=== BIENVENIDO AL SISTEMA DEL BANCO ===");
         
         // Bucle controlado por el número de intentos y el estado de acceso
         while (intentos < MAX_INTENTOS && !accesoConcedido) {
-            System.out.print("Ingrese su clave de acceso: ");
+            System.out.print("Ingrese su clave de acceso, ANTES DE HACERLO ACUERDESE BIEN: ");
             claveIngresada = scanner.nextLine();
             intentos++;
             
