@@ -22,7 +22,7 @@ public class Ejercicio1 {
 
         // El try-with-resources gestiona la apertura y cierre automático del Scanner
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("--- SISTEMA DE ACCESO ---");
+            System.out.println("--- Sistema para ingreso ---");
 
             // Estructura ideal: primero ejecuta la acción, luego evalúa si repite
             do {
