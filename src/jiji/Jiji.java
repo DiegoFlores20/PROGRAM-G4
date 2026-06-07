@@ -128,6 +128,9 @@ public static void ejercicio10() {
             ceros++;
         }
     }
+    System.out.println("Positivos: " + positivos);
+    System.out.println("Negativos: " + negativos);
+    System.out.println("Ceros: " + ceros);
 }
 
 public static void ejercicio13() {
