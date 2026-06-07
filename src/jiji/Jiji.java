@@ -150,7 +150,7 @@ public static void ejercicio6() {
     
 }
 public static void ejercicio7() {
-        int numero, cantidad = 0, suma = 0;
+        int numero, cantidad = 0, suma = 0, mayor = Integer.MAX_VALUE;
         System.out.println("Hasta numero negativo");
         do {
             System.out.print("Ingrese un numero (negativo para terminar): ");
@@ -158,13 +158,16 @@ public static void ejercicio7() {
             if (numero >= 0){
                 cantidad++;
                 suma += numero;
+                if (numero > mayor) 
+                    mayor = numero;
+                
             }
         } while (numero >= 0);
         System.out.println("cantidad de numeros : " + cantidad + " ; suma total: " + suma);
-        if (cantidad > 0){
+        if (cantidad > 0)
             System.out.println("Promedio general:" + ((double) suma / cantidad));
+        System.out.println("numero mayor ingresado: " + (cantidad == 0 ? 0 : mayor));
         }
-}
 
 public static void ejercicio9() {
     int num;
