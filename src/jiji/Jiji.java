@@ -115,6 +115,10 @@ public static void ejercicio9() {
 }       
 
 public static void ejercicio13() {
+    
+}
+
+public static void ejercicio13() {
     int mayor = Integer.MIN_VALUE;
     int menor = Integer.MAX_VALUE;
     int numero;
