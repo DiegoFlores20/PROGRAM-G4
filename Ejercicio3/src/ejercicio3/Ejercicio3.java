@@ -15,7 +15,7 @@ public class Ejercicio3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+//Algoritmo que solicita una nota entre 0 y 10, mientras la nota ingresada se ainvalida el usuario debera colver a inggresarla, al final mostar la noata valida
         Scanner teclado = new Scanner(System.in);
 
         double nota;
