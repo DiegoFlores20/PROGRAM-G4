@@ -14,8 +14,7 @@ public class Ejercicio4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        // Configuración de credenciales y límites
+        //Algoritmo que simule un cajero automatico.se solicita una clave y permite un maximo de tres intentos si la clave es correcta mustra un mensaje de bienvenida caso contrario bloquea el acceso.
         final String CLAVE_CORRECTA = "4321"; // Clave del cajero
         final int MAX_INTENTOS = 3;
         
