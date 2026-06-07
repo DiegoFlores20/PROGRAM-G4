@@ -150,13 +150,15 @@ public static void ejercicio6() {
     
 }
 public static void ejercicio7() {
-        int numero;
+        int numero, cantidad = 0;
         System.out.println("Hasta numero negativo");
         do {
             System.out.print("Ingrese un numero (negativo para terminar): ");
             numero = leer.nextInt();
+            if (numero >= 0)
+                cantidad++;
         } while (numero >= 0);
-        System.out.println("Proceso terminado.");
+        System.out.println("cantidad de numeros ingresados: " + cantidad);
     }
 
 
