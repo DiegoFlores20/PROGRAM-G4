@@ -116,4 +116,6 @@ public static void ejercicio13() {
         if (numero < menor)
         menor = numero;
     }
+    System.out.println("Mayor: " + mayor);
+    System.out.println("Menor: " + menor);
 }
