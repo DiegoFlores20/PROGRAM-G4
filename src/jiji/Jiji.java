@@ -145,6 +145,10 @@ public static void ejercicio11() {
     System.out.println("El promedio general del curso es: "+promedio);
 }
 
+public static void ejercicio12() {
+    
+}
+
 public static void ejercicio13() {
     int mayor = Integer.MIN_VALUE;
     int menor = Integer.MAX_VALUE;
