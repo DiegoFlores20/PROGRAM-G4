@@ -125,6 +125,7 @@ public static void ejercicio1() {
     String contrasenaIngresada;
     int intentos = 0;
 
+    System.out.println("Sistema para ingreso");
     System.out.println("--- Sistema para ingreso ---");
 
     do {
