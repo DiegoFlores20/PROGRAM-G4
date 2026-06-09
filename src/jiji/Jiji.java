@@ -9,9 +9,11 @@ public class Jiji {
         
         do {
             System.out.println("MENU PRINCIPAL");
+            System.out.println("wendy estuvo aqui");
             System.out.println("1. Contraseña ilimitada");
             System.out.println("2. Positivos, suma y promedio");
             System.out.println("3. Validar nota");
+            System.out.println("Nicolay estuvo aqui");
             System.out.println("4. Cajero automatico");
             System.out.println("5. Pares e impares");
             System.out.println("6. Ventas diarias");
