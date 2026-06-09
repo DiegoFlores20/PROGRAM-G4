@@ -15,7 +15,7 @@ public class Jiji {
             System.out.println("4. Cajero automático");
             System.out.println("5. Pares e impares");
             System.out.println("6. Ventas diarias");
-            System.out.println("7. Números hasta negativo");
+            System.out.println("7. Numeros hasta negativo");
             System.out.println("8. Tabla de multiplicar");
             System.out.println("9. Factorial");
             System.out.println("10. Positivos, negativos y ceros");
@@ -23,10 +23,10 @@ public class Jiji {
             System.out.println("12. Fibonacci");
             System.out.println("13. Mayor y menor");
             System.out.println("14. Suma pares 1-200");
-            System.out.println("15. Número primo");
+            System.out.println("15. Numero primo");
             System.out.println("16. Salir");
             
-            System.out.print("Seleccione una opción: ");
+            System.out.print("Seleccione una opcion: ");
             opcion = leer.nextInt();
             
             switch (opcion) {
@@ -95,7 +95,7 @@ public class Jiji {
                     break;
 
                 default:
-                    System.out.println("Opción inválida");
+                    System.out.println("Opcion inválida");
             }
             
         } while (opcion != 16); 
@@ -125,6 +125,7 @@ public static void ejercicio1() {
     String contrasenaIngresada;
     int intentos = 0;
 
+    System.out.println("Sistema para ingreso");
     System.out.println("--- Sistema para ingreso ---");
 
     do {
@@ -328,7 +329,7 @@ public static void ejercicio8() {
 public static void ejercicio9() {
     int num;
         long factorial = 1;
-        System.out.print("Ingrese un número: ");
+        System.out.print("Ingrese un numero: ");
         num = leer.nextInt();
          for (int i = 1; i <= num; i++) {
             factorial *= i;
@@ -389,7 +390,7 @@ public static void ejercicio13() {
     int menor = Integer.MAX_VALUE;
     int numero;
     for (int i = 1; i <= 10; i++) {
-        System.out.print("Ingrese número: ");
+        System.out.print("Ingrese numero: ");
         numero = leer.nextInt();
         
         if (numero > mayor)
@@ -415,7 +416,7 @@ public static void ejercicio15() {
         int numero;
         int divisores = 0;
 
-        System.out.print("Ingrese número: ");
+        System.out.print("Ingrese numero: ");
         numero = leer.nextInt();
         
         for (int i = 1; i <= numero; i++) {
