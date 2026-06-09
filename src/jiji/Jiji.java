@@ -12,7 +12,7 @@ public class Jiji {
             System.out.println("1. Contraseña ilimitada");
             System.out.println("2. Positivos, suma y promedio");
             System.out.println("3. Validar nota");
-            System.out.println("4. Cajero automático");
+            System.out.println("4. Cajero automatico");
             System.out.println("5. Pares e impares");
             System.out.println("6. Ventas diarias");
             System.out.println("7. Numeros hasta negativo");
@@ -118,7 +118,6 @@ public static int calcularCuadrado(int numero) {
     return numero * numero;
 }
 
-// 1
 public static void ejercicio1() {
 
     String contrasenaCorrecta = "Secreta123";
@@ -126,7 +125,6 @@ public static void ejercicio1() {
     int intentos = 0;
 
     System.out.println("Sistema para ingreso");
-    System.out.println("--- Sistema para ingreso ---");
 
     do {
         System.out.print("Ingrese su contraseña correctamente: ");
@@ -139,11 +137,10 @@ public static void ejercicio1() {
 
     } while (!contrasenaIngresada.equals(contrasenaCorrecta));
 
-    System.out.println("\n¡Acceso concedido, al fin te acordaste!");
-    System.out.println("Número total de intentos necesitados: " + intentos);
+    System.out.println("Acceso concedido, al fin te acordaste!");
+    System.out.println("Numero total de intentos necesitados: " + intentos);
 }
 
-// 2
 public static void ejercicio2() {
 
     int numero;
@@ -171,13 +168,12 @@ public static void ejercicio2() {
         promedio = 0;
     }
 
-    System.out.println("\nRESULTADOS OBTENIDOS");
-    System.out.println("Cantidad de números ingresados: " + cantidad);
+    System.out.println("RESULTADOS OBTENIDOS");
+    System.out.println("Cantidad de numeros ingresados: " + cantidad);
     System.out.println("Sumatoria total: " + suma);
     System.out.println("Promedio: " + promedio);
 }
 
-// 3
 public static void ejercicio3() {
 
     double nota;
@@ -188,7 +184,7 @@ public static void ejercicio3() {
     while (nota < 0 || nota > 10) {
 
         System.out.println("Error. La nota debe estar entre 0 y 10.");
-        System.out.print("Ingrese nuevamente una nota válida: ");
+        System.out.print("Ingrese nuevamente una nota valida: ");
         nota = leer.nextDouble();
     }
 
@@ -205,7 +201,7 @@ public static void ejercicio4() {
     int intentos = 0;
     boolean accesoConcedido = false;
 
-    System.out.println("=== BIENVENIDO AL SISTEMA DEL BANCO ===");
+    System.out.println("BIENVENIDO AL SISTEMA DEL BANCO");
 
     while (intentos < MAX_INTENTOS && !accesoConcedido) {
 
@@ -229,10 +225,10 @@ public static void ejercicio4() {
     }
 
     if (accesoConcedido) {
-        System.out.println("\n¡Bienvenido a tu cuenta bancaria!");
+        System.out.println("Bienvenido a tu cuenta bancaria!");
         System.out.println("Acceso concedido exitosamente.");
     } else {
-        System.out.println("\nHa superado el límite de intentos.");
+        System.out.println("Ha superado el limite de intentos.");
         System.out.println("Acceso bloqueado por seguridad.");
     }
 }
