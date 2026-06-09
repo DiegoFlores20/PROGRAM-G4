@@ -15,7 +15,7 @@ public class Jiji {
             System.out.println("4. Cajero automático");
             System.out.println("5. Pares e impares");
             System.out.println("6. Ventas diarias");
-            System.out.println("7. Números hasta negativo");
+            System.out.println("7. Numeros hasta negativo");
             System.out.println("8. Tabla de multiplicar");
             System.out.println("9. Factorial");
             System.out.println("10. Positivos, negativos y ceros");
@@ -23,10 +23,10 @@ public class Jiji {
             System.out.println("12. Fibonacci");
             System.out.println("13. Mayor y menor");
             System.out.println("14. Suma pares 1-200");
-            System.out.println("15. Número primo");
+            System.out.println("15. Numero primo");
             System.out.println("16. Salir");
             
-            System.out.print("Seleccione una opción: ");
+            System.out.print("Seleccione una opcion: ");
             opcion = leer.nextInt();
             
             switch (opcion) {
@@ -95,7 +95,7 @@ public class Jiji {
                     break;
 
                 default:
-                    System.out.println("Opción inválida");
+                    System.out.println("Opcion inválida");
             }
             
         } while (opcion != 16); 
@@ -117,7 +117,121 @@ public static double dividirDosNumeros(double a, double b) {
 public static int calcularCuadrado(int numero) {
     return numero * numero;
 }
-    
+
+public static void ejercicio1() {
+
+    String contrasenaCorrecta = "Secreta123";
+    String contrasenaIngresada;
+    int intentos = 0;
+
+    System.out.println("Sistema para ingreso");
+
+    do {
+        System.out.print("Ingrese su contraseña correctamente: ");
+        contrasenaIngresada = leer.next();
+        intentos++;
+
+        if (!contrasenaIngresada.equals(contrasenaCorrecta)) {
+            System.out.println("La contraseña no es la correcta. Vuelva cuando se haya acordado.");
+        }
+
+    } while (!contrasenaIngresada.equals(contrasenaCorrecta));
+
+    System.out.println("Acceso concedido, al fin te acordaste!");
+    System.out.println("Numero total de intentos necesitados: " + intentos);
+}
+
+public static void ejercicio2() {
+
+    int numero;
+    int cantidad = 0;
+    int suma = 0;
+    double promedio;
+
+    System.out.println("Por favor ingresar solo números enteros positivos.");
+    System.out.println("Ingrese un número negativo para finalizar.");
+
+    do {
+        System.out.print("Ingrese un número entero positivo: ");
+        numero = leer.nextInt();
+
+        if (numero >= 0) {
+            cantidad++;
+            suma += numero;
+        }
+
+    } while (numero >= 0);
+
+    if (cantidad > 0) {
+        promedio = (double) suma / cantidad;
+    } else {
+        promedio = 0;
+    }
+
+    System.out.println("RESULTADOS OBTENIDOS");
+    System.out.println("Cantidad de numeros ingresados: " + cantidad);
+    System.out.println("Sumatoria total: " + suma);
+    System.out.println("Promedio: " + promedio);
+}
+
+public static void ejercicio3() {
+
+    double nota;
+
+    System.out.print("Ingrese una nota entre 0 y 10: ");
+    nota = leer.nextDouble();
+
+    while (nota < 0 || nota > 10) {
+
+        System.out.println("Error. La nota debe estar entre 0 y 10.");
+        System.out.print("Ingrese nuevamente una nota valida: ");
+        nota = leer.nextDouble();
+    }
+
+    System.out.println("Excelente, la nota válida registrada es: " + nota);
+}
+
+// 4
+public static void ejercicio4() {
+
+    final String CLAVE_CORRECTA = "4321";
+    final int MAX_INTENTOS = 3;
+
+    String claveIngresada;
+    int intentos = 0;
+    boolean accesoConcedido = false;
+
+    System.out.println("BIENVENIDO AL SISTEMA DEL BANCO");
+
+    while (intentos < MAX_INTENTOS && !accesoConcedido) {
+
+        System.out.print("Ingrese su clave de acceso: ");
+        claveIngresada = leer.next();
+
+        intentos++;
+
+        if (claveIngresada.equals(CLAVE_CORRECTA)) {
+            accesoConcedido = true;
+        } else {
+
+            int intentosRestantes = MAX_INTENTOS - intentos;
+
+            System.out.println("La clave ingresada es incorrecta.");
+
+            if (intentosRestantes > 0) {
+                System.out.println("Le quedan " + intentosRestantes + " intentos.");
+            }
+        }
+    }
+
+    if (accesoConcedido) {
+        System.out.println("Bienvenido a tu cuenta bancaria!");
+        System.out.println("Acceso concedido exitosamente.");
+    } else {
+        System.out.println("Ha superado el limite de intentos.");
+        System.out.println("Acceso bloqueado por seguridad.");
+    }
+}
 public static void ejercicio5() {
         int numero, pares = 0, impares = 0, total = 0, ultimoPar = 0;
         System.out.println("Numeros pares e impares ");
@@ -211,7 +325,7 @@ public static void ejercicio8() {
 public static void ejercicio9() {
     int num;
         long factorial = 1;
-        System.out.print("Ingrese un número: ");
+        System.out.print("Ingrese un numero: ");
         num = leer.nextInt();
          for (int i = 1; i <= num; i++) {
             factorial *= i;
@@ -272,7 +386,7 @@ public static void ejercicio13() {
     int menor = Integer.MAX_VALUE;
     int numero;
     for (int i = 1; i <= 10; i++) {
-        System.out.print("Ingrese número: ");
+        System.out.print("Ingrese numero: ");
         numero = leer.nextInt();
         
         if (numero > mayor)
@@ -298,7 +412,7 @@ public static void ejercicio15() {
         int numero;
         int divisores = 0;
 
-        System.out.print("Ingrese número: ");
+        System.out.print("Ingrese numero: ");
         numero = leer.nextInt();
         
         for (int i = 1; i <= numero; i++) {
